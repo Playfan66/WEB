@@ -1,0 +1,221 @@
+/* Space out content a bit */
+body {
+  
+  padding-bottom: 0px;
+  background-color:#FCF097;
+  margin: 0;
+
+
+  }
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+ {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+  width: 100%;
+  height: auto;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.nav-justified > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    background-color: #00B622;
+    font-size: 20px;
+    font-family: helvetica;
+    padding-left: 70px;
+    padding-right: 70px;}
+
+
+/* Custom page footer */
+.footer {
+  margin-bottom: 20px;
+  
+  color: #777;
+  
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+    
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+  padding-top: 0px;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+      max-width: 960px;
+    
+    
+    
+}
+   
+
+}
+.jumbotron .btn {
+  padding-top: 20px;
+  
+  padding: 20px 40px;
+  font-size: 30px;
+  color: #000;
+  background-color: #B6AF00;
+  font-family: impact;
+  padding-left: 50px;
+
+
+}
+
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+    background-color: #EBE20B;
+    height: 1080px;
+    width: 960px;
+
+  }
+   .cuadro {
+        max-width: 960px;
+    border-bottom: 0;
+    background-color: #fff;
+
+    }
+.Main {
+    width: 90%;
+    max-width:1000px;
+    margin: 20px auto;
+    overflow:;
+    }
+    .slides img {
+    width: 100%;
+    max-width:1000px;
+    margin: 20px auto;
+    overflow:;
+    }
+     .slides {
+    width: 75%;
+
+   
+    }
+  .slidesjs-pagination{
+    background: #424242;
+    list-style: none;
+    overflow:hidden; 
+}
+ .slidesjs-pagination li{
+    float: left;
+
+  }
+  .slidesjs-pagination li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+    .slidesjs-pagination li a:hover {
+      background: #000;
+
+  }
+  .slides .active{
+    background: #000;
+  }
+  .slidesjs-navigation{
+    
+    color: #fff;
+    text-decoration: none; 
+    display: block;
+    padding: 10px 20px;
+    float: right;
+    width: 1920px;
+  }
+  }
+  #caja{
+    background:#00B622;
+    width: 200px;
+    height:300px;
+    padding: 20px;
+    margin-left: 160px;
+    margin-bottom: 200px;
+    border-radius: 6px;
+  }
+input [type=text] ,input [type=password]{
+  margin: 0 0 1em 0;
+  width: 200px;
+  border: 0px;
+  padding: 1em;
+  border-radius: 8px 3px 3px 8px;
+  color: white;
+}
+.BUY h1{
+  height: 50px;
+  padding: 100px;
+  font-size: 100px;
+  color: red;
+  margin-right: 70px;
+ 
+}
+.btn-lg {
+  padding-left: 90px;
+    padding: 10px 45px;
+    font-size: 28px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+margin-right: 70px;
+background-color: #B6AF00;
+color: black;
+font-family: impact;
+}
+.col-md-6 p{
+  
+  font-size: 14px;
+  padding-left: 80px;
+
+}
+
+
+
+}
